@@ -1,0 +1,38 @@
+.floatlist {
+
+    height: 300px;
+    width: 100%;
+    /* background-color: brown; */
+    position: relative;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.floatlistcontainer {
+    height: 300px;
+    width: 80%;
+    background-color: rgb(181, 244, 255);
+    bottom: 500px;
+transform: scale(0);
+
+}
+.active{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(181, 244, 255);
+    bottom: 500px;
+    border-radius: 15px;
+    transform: scale(1);
+    display: block;
+    transition: .4s;
+    display: flex;
+justify-content: right;
+}
+
+.closein{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
